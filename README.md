@@ -8,6 +8,7 @@ Requirements : Python 3.X
 4. Select run cells from jupyter notebook
 
 # To run matrixchain.py
-```python matrixchain.py --list 4,2,6,8
-   Replace 4,2,6,8 with your own list
+```
+python matrixchain.py --list 4,2,6,8
+Replace 4,2,6,8 with your own list
 ```
