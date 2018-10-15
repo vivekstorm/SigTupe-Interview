@@ -3,7 +3,8 @@ import argparse
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
-    parser.add_argument("--list","-l",help="Enter the list seperated by space",required=True)
+    print('Example usage is: python matrixchain.py 3,1,5,8')
+    parser.add_argument("--list","-l",help="Enter the elements of list seperated by comma",required=True)
     args=parser.parse_args()
     list=args.list
     a=[int(x) for x in list.split(',')]
