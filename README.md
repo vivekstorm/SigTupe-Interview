@@ -12,3 +12,5 @@ Requirements : Python 3.X
 python matrixchain.py --list 4,2,6,8
 Replace 4,2,6,8 with your own list
 ```
+## References for matrixchain code
+ 1. https://www.geeksforgeeks.org/matrix-chain-multiplication-dp-8/
